@@ -29,12 +29,36 @@
         Enable Light Mode
       </button>
 
+      <label for="toggle-theme">
+        Toggle Theme
+        <input type="checkbox" name="Toggle Theme" id="toggle-theme" />
+      </label>
+
       <!-- Don't go past here -->
     </div>
     <div style="margin-top: 350px"></div>
 
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/darkmodetoggle.js"></script>
-    <script></script>
+    <script>
+      // const toggleTheme = document.getElementById('toggle-theme');
+      // const currentTheme = localStorage.getItem('theme');
+      // if (currentTheme) {
+      //   document.documentElement.setAttribute('data-theme', currentTheme);
+      //   if (currentTheme === 'dark') {
+      //     toggleTheme.checked = true;
+      //   }
+      // }
+
+      // toggleTheme.addEventListener('change', function () {
+      //   if (toggleTheme.checked) {
+      //     document.documentElement.setAttribute('data-theme', 'dark');
+      //     localStorage.setItem('theme', 'dark');
+      //   } else {
+      //     document.documentElement.setAttribute('data-theme', 'light');
+      //     localStorage.setItem('theme', 'light');
+      //   }
+      // });
+    </script>
   </body>
 </html>
